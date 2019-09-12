@@ -30,7 +30,11 @@ Caso necessite de Proxy:
 ```
 docker build --tag=minhaTAG --build-arg HTTP_PROXY=http://user:pass@proxy.company.priv:3128 --build-arg HTTPS_PROXY=http://user:pass@proxy.company.priv:3128 .
 ```
+4. Envie a imagem criada para sua conta no Docker Hub:
 
+```
+docker push conta/img:tag
+```
 #### Observações
 
 - Para criar uma nova imagem, não é necessário alterar o arquivo Dockerfile. Apenas altere o código do aplicativo e rode o comando acima.
@@ -74,7 +78,8 @@ As configurações do nginx do autor estão nesta pasta, no arquivo nginx.conf
 1. Se o backup não tiver sido criado, criar o backup com o comando
 
 ```
-mongodump -o [pasta/onde/salvar]
+sudo mongodump --db sim_anuencia_db -o [PASTA/DESTINO] --forceTableScan
+
 
 ```
 
