@@ -29,6 +29,8 @@ class Login extends Component {
 
   async login(e) {
     e.preventDefault();
+    console.log('Alterado por Daniel Perrout.');
+    this.clearAllCookies();
     let user;
     await axios
       .post("/api/login", {
