@@ -3,3 +3,4 @@ ecosystem.config.js
 .env
 client/src/clientEnv.js
 mrestore.ps1
+build
