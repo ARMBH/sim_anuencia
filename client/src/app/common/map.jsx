@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import { soloStyle } from '../config/soloStyle'
 import { CloseWindow } from '../common/buttons'
-import GMapsApiKey from '../../clientEnv.js'
+//import GMapsApiKey from '../../clientEnv.js'
+const GMapsApiKey = 'TEMP_GET_FROM_GMAPS'
 
 class Map extends Component {
 
