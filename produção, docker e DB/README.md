@@ -51,7 +51,7 @@ docker push conta/img:tag
 2. Execute o seguinte comando na respectiva pasta
 
 ```
-sudo docker-compose pull && sudo docker-compose up
+sudo docker-compose up
 ```
 
 #### Utilizando a nova imagem criada
@@ -74,8 +74,6 @@ As configurações do nginx do autor estão nesta pasta, no arquivo nginx.conf
 
 ```
 sudo mongodump --db sim_anuencia_db -o [PASTA/DESTINO] --forceTableScan
-
-
 ```
 
 2. Entrar na pasta onde estiver salvo o backup
