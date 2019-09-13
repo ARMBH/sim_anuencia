@@ -44,7 +44,17 @@ docker push conta/img:tag
 
 1. Copie o arquivo 'docker-compose.yml' para a pasta raiz do aplicativo no servidor (ex: /anuencia/)
 
-2. Execute o seguinte comando na respectiva pasta
+2. Liste os containers que estão rodando a versão passada com o comando
+```
+sudo docker ps
+```
+
+3. Remova todos os containers que serão substituídos (mongo e sim/anuencia)
+```
+sudo docker rm -f CONTAINER_ID
+```
+
+4. Execute o seguinte comando na respectiva pasta
 
 ```
 sudo docker-compose up
