@@ -46,7 +46,7 @@ app.use(cookieParser());
 app.use(express.static('client/build'))
 app.use(methodOverride('_method'))
 
-const mongoURI = (process.env.MONGODB_URI || 'mongodb://localhost:27017/sim_anuencia_db')
+const mongoURI = (process.env.MONGODB_URI || 'mongodb://mongodb:27017/sim_anuencia_db')
 mongoose.set('useFindAndModify', false)
 mongoose.set('useCreateIndex', true);
 mongoose.connect(mongoURI, { useNewUrlParser: true }, (err) => {

@@ -18,12 +18,12 @@ Se optar por utilizar o docker, visite https://cloud.docker.com/repository/docke
 
 ### Criando e utilizando uma imagem docker
 
-1. Gerar `ecosystem.config.js` com as variáveis desejadas
+1. Gerar `ecosystem.config.js` na pasta raíz deste repositório com as variáveis desejadas
 2. No diretório do client executar `npm run build`
 3. Finalmente, na pasta raíz deste repositório, executar:
 
 ```
-docker build --tag=minhaTag .
+docker build -t conta/img:tag .
 ```
 
 
@@ -37,8 +37,6 @@ docker push conta/img:tag
 - Para criar uma nova imagem, não é necessário alterar o arquivo Dockerfile. Apenas altere o código do aplicativo e rode o comando acima.
 
 - Lembre-se de verificar se o .dockerignore inclui a pasta "node_modules"
-
-- Para utilizar o arquivo Dockerfile disponível, salve as variáveis de ambiente no arquivo ecosystem.config.js (instruções acima, no item anterior).
 
 - Sempre rodar o build do client ANTES de rodar o comando acima
 
