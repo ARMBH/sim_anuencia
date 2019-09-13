@@ -47,3 +47,16 @@ Finalmente, o último link à direita corresponde ao logout do sistema, retornan
 ![Alt text](/client/public/images/3.png?raw=true "Tela inicial")
 
 *Agradecimentos a Marcus Vinícius Costa por ter colaborado efetivamente na criação deste breve guia de introdução ao sistema.
+
+# Utiilzação
+## Em ambiente local
+Para executar em sua máquina:
+
+1. `npm install` na pasta raíz
+2. `npm install` na pasta /client
+2. Criar um arquivo env na pasta raíz com a variável `NODE_ENV=local`
+3. `npm run server` na pasta /server
+4. `npm start` na pasta /client
+
+## Deploy
+(...em construção)
