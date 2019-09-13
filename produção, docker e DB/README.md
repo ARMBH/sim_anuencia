@@ -26,10 +26,7 @@ Se optar por utilizar o docker, visite https://cloud.docker.com/repository/docke
 docker build --tag=minhaTag .
 ```
 
-Caso necessite de Proxy:
-```
-docker build --tag=minhaTAG --build-arg HTTP_PROXY=http://user:pass@proxy.company.priv:3128 --build-arg HTTPS_PROXY=http://user:pass@proxy.company.priv:3128 .
-```
+
 4. Envie a imagem criada para sua conta no Docker Hub:
 
 ```
