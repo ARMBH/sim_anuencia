@@ -48,10 +48,9 @@ Finalmente, o último link à direita corresponde ao logout do sistema, retornan
 
 *Agradecimentos a Marcus Vinícius Costa por ter colaborado efetivamente na criação deste breve guia de introdução ao sistema.
 
-# Utiilzação
+# Utilização
 ## Em ambiente local
-Para executar em sua máquina:
-
+Com o repositório clonado em sua máquina:
 1. `npm install` na pasta raíz
 2. `npm install` na pasta /client
 2. Criar um arquivo env na pasta raíz com a variável `NODE_ENV=local`

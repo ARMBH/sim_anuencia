@@ -12,22 +12,18 @@ Check-list para funcionar em Produção:
 
 ## Docker
 
-### Versão estável em
-
-Se optar por utilizar o docker, visite https://cloud.docker.com/repository/docker/sverissimo/sim_anuencia para baixar a imagem do código (atualizada em 06ago19).
-
 ### Criando e utilizando uma imagem docker
 
 1. Gerar `ecosystem.config.js` na pasta raíz deste repositório com as variáveis desejadas
-2. No diretório do client executar `npm run build`
-3. Finalmente, na pasta raíz deste repositório, executar:
+2. Gerar `.env` na pasta raíz deste repositório com as variáveis desejadas
+3. No diretório do client executar `npm run build`
+4. Finalmente, na pasta raíz deste repositório, executar:
 
 ```
 docker build -t conta/img:tag .
 ```
 
-
-4. Envie a imagem criada para sua conta no Docker Hub:
+5. Envie a imagem criada para sua conta no Docker Hub:
 
 ```
 docker push conta/img:tag
