@@ -46,7 +46,10 @@ app.use(cookieParser());
 app.use(express.static('client/build'))
 app.use(methodOverride('_method'))
 
-const mongoURI = (process.env.MONGODB_URI || 'mongodb://mongodb:27017/sim_anuencia_db')
+let mongoURI = (process.env.MONGODB_URI || 'mongodb://mongodb:27017/sim_anuencia_db')
+if(process.env.NODE_ENV === 'local')
+mongoURI = (process.env.MONGODB_URI || 'mongodb://localhost:27017/sim_anuencia_db')
+
 mongoose.set('useFindAndModify', false)
 mongoose.set('useCreateIndex', true);
 mongoose.connect(mongoURI, { useNewUrlParser: true }, (err) => {
@@ -644,5 +647,5 @@ if (process.env.NODE_ENV === 'production') {
 
 const port = process.env.PORT || 3001
 app.listen(port, () => {
-    console.log('Running...')
+    console.log('Running...' + process.env.NODE_ENV)
 })

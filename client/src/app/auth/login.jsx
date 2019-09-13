@@ -29,7 +29,8 @@ class Login extends Component {
 
   async login(e) {
     e.preventDefault();
-    this.clearAllCookies();
+
+    //    this.clearAllCookies();
     let user;
     await axios
       .post("/api/login", {
