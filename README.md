@@ -54,7 +54,7 @@ Com o repositório clonado em sua máquina:
 1. `npm install` na pasta raíz
 2. `npm install` na pasta /client
 2. Criar um arquivo env na pasta raíz com a variável `NODE_ENV=local`
-3. `npm run server` na pasta /server
+3. `npm run server` na pasta raíz
 4. `npm start` na pasta /client
 
 ## Deploy
