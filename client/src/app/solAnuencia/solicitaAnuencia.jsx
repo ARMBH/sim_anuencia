@@ -115,7 +115,7 @@ class SolicitaAnuencia extends Component {
 
         const p = projetos.some(p => p === name)
         const p10 = projetos10Mb.some(p => p === name)
-
+        console.log(files[0])
         if (p && (files[0] && files[0].size > 6291456)) {
             document.getElementsByName(name)[0].value = ''
             alert('Arquivo excedeu o limite permitido (6MB)!')
@@ -129,7 +129,8 @@ class SolicitaAnuencia extends Component {
             alert('Arquivo excedeu o limite permitido (2MB)!')
         }
         if (name === 'kml') {
-            if (files[0] && files[0].type !== "application/vnd.google-earth.kml+xml") {
+            if (files[0] && files[0].name.slice(-3) !== "kml") {
+            //if (files[0] && files[0].type !== "application/vnd.google-earth.kml+xml") {
                 document.getElementsByName(name)[0].value = ''
                 alert('Favor inserir a delimitação da gleba em formato kml.')
             }
