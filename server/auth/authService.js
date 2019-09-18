@@ -66,7 +66,7 @@ const signup = (req, res, next) => {
                             from: 'anuencia.digital@agenciarmbh.mg.gov.br',
                             to: user.email,
                             subject: 'Confirmação de Cadastro',
-                            html: verifyEmail(user.name, `https://www.anuenciadigital.ml/api/vUser?id=${user._id}`)
+                            html: verifyEmail(user.name, `http://anuencia.agenciarmbh.mg.gov.br/api/vUser?id=${user._id}`)
                         }                       
                         transporter.sendMail(mailOptions, function (err, res) {
                             if (err) {
