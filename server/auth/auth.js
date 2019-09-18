@@ -20,7 +20,7 @@ const auth = router.use((req, res, next) => {
         let token = getCookie('_sim-ad',req.headers.cookie)
         jwt.verify(token, process.env.AUTHSECRET, function (err, decoded) {            
             if (err) {
-                console.log('token expired!!!!')
+                console.log('>> Token expired')
                 return res.status(403).send(err)          
             } else {
                 req.decoded = decoded                

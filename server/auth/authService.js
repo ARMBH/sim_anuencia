@@ -98,6 +98,7 @@ const login = async (req, res, next) => {
                     expiresIn: 60 * 60 * 4
                 })
                 res.cookie('_sim-ad', token, { maxAge: 1000 * 60 * 60 * 4 }).send(user)
+                console.log('>> Login: '+user.email)
             } else {
                 res.send('Aguardando verificação do usuário.')
             }
