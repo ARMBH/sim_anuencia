@@ -124,10 +124,10 @@ class solicitaDiretriz extends Component {
 
   async fileUpload(e) {
     let { name, files } = e.target;
-    console.log(files[0].type);
+    //console.log(files[0].type);
     if (name === "kml") {
       //if (files[0] && files[0].type !== "application/vnd.google-earth.kml+xml") {
-      if (files[0] && files[0].name.slice(-3) !== "kml") {
+      if (files[0] && files[0].name.slice(-3).toLowerCase() !== "kml") {
         document.getElementsByName(name)[0].value = "";
         alert("Favor inserir a delimitação da gleba em formato kml.");
       }
