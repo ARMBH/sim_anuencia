@@ -36,7 +36,7 @@ O link "Gerenciar Dados" aparece como "Acompanhar Processos" para os usuários q
 
 Mais à direita, há opções de gerenciar os usuários do sistema, alterando suas permissões e em seguida uma opção para alterar dados de contato das prefeituras.
 
-Em caso de dúvidas, há um link na barra inicial para a página “Fale Conosco”, que dispara a mensagem automaticamente para o email anuência.digital@agenciarmbh.mg.gov.br, que é administrado pelo setor técnico da emissão de anuência.
+Em caso de dúvidas, há um link na barra inicial para a página “Fale Conosco”, que dispara a mensagem automaticamente para o email `anuencia.digital@agenciarmbh.mg.gov.br`, que é administrado pelo setor técnico da emissão de anuência.
 
 Há também no menu do sistema uma opção de alteração de senha e na tela inicial a link esqueci minha senha”, disponível para todos os usuários.
 

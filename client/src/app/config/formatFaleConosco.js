@@ -37,7 +37,7 @@ const formatFaleConosco = (person, email, subject, mensagem) => {
             <br /><br />
             <hr />
             <p>
-                <a href="http://anuenciadigital.ml" target="_blank">Anuência Digital</a>
+                <a href="http://anuencia.agenciarmbh.mg.gov.br/" target="_blank">Anuência Digital</a>
             </p>
 
         </div>
