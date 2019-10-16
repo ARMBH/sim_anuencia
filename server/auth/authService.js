@@ -55,7 +55,7 @@ const signup = (req, res, next) => {
                         if (err) return err
                         const transporter = nodemailer.createTransport({
                             host: process.env.MAILHOST,
-                            port: 465,
+                            port: 25,
                             secureConnection: true, // use SSL        
                             auth: {
                                 user: process.env.MAILUSER,
