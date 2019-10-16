@@ -15,7 +15,7 @@ const sendMail = (req, res) => {
     })
 
     const mailOptions = {
-        from: 'anuencia.digital@agenciarmbh.mg.gov.br',
+        from: 'anuencia@agenciarmbh.mg.gov.br',
         to: to,
         subject: subject,
         html: html
