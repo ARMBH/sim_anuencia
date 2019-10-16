@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   sim_anuencia: 
-    image: perrout/sim_anuencia:16out19
+    image: perrout/sim_anuencia:16out19v2
     ports:
       - "3001:3001"
     links:
