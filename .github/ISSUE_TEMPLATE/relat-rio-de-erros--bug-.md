@@ -11,11 +11,11 @@ assignees: ''
 
 Descreva o erro que está ocorrendo
 
-## Comportamento esperado
+### Comportamento esperado
 
 Descreva o comportamento que você espera
 
-### Passos para reproduzir
+## Passos para reproduzir
 
 Forneça etapas detalhadas para reproduzir o problema.
 
