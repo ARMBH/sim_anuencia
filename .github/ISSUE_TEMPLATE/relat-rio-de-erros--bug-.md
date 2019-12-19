@@ -25,3 +25,6 @@ Forneça etapas detalhadas para reproduzir o problema.
 
 ### Printscreens
 Se necessário, adicione imagens do problema
+
+## Informações adicionais
+Inclua informações adicionais, caso julgue necessário
