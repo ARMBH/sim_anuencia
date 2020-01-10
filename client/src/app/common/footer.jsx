@@ -11,7 +11,7 @@ const Footer = () => {
                 maxHeight: '20px'
             }}>
             <span style={{ fontSize: '0.8rem' }}>
-                © 2019. Desenvolvido por Sandro Veríssimo - Agência de Desenvolvimento da RMBH.
+                © 2019. Desenvolvido por Agência de Desenvolvimento da RMBH.
             </span>
         </footer>
     )
