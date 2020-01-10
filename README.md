@@ -2,8 +2,6 @@
   
 Esse repositório é sobre o sistema criado para digitalizar o trâmite de processos de anuência prévia à aprovação de projetos de parcelamento do solo na Região Metropolitana de Belo Horizonte, MG. A atividade é obrigatória para regiões metropolitanas e é regida pela lei federal nº 6.766/79.
 
-Esse sistema foi completamente desenvolvido por Sandro Veríssimo Oliveira de Miranda, servidor efetivo do estado de MG e seu código é livre para utilização e modificação, conforme licença MIT, disponível neste repositório.
-
 Foi criada uma pasta à parte com informações sobre o que foi utilizado pelo autor do sistema no ambiente de produção, docker, banco de dados, etc.
 
 ## Tela inicial
@@ -45,8 +43,6 @@ Finalmente, o último link à direita corresponde ao logout do sistema, retornan
 ### Imagem 3 – Tela de login
 
 ![Alt text](/client/public/images/3.png?raw=true "Tela inicial")
-
-*Agradecimentos a Marcus Vinícius Costa por ter colaborado efetivamente na criação deste breve guia de introdução ao sistema.
 
 # Utilização
 ## Em ambiente local
