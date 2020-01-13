@@ -16,7 +16,7 @@ const HomeTemplate = props => {
             </strong>{" "}
           </h1>
           <h6 style={{ color: "white", fontWeight: "500" }}>
-            Versão 1.6.0 - 13/01/2020
+            Versão 1.6.1 - 13/01/2020
           </h6>
           <br />
           <h4 style={{ color: "white", fontWeight: "500" }}>
