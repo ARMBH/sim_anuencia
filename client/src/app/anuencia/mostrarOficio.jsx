@@ -2,7 +2,7 @@ import React from 'react';
 import OficioHeader from './oficioHeader'
 
 const MostrarOficio = (props) => {
-    let { mostrarOficio, content, redux, process, empreend, rt, tecnicos, prefeituras } = props
+    let { mostrarOficio, content, redux, process, empreend, rt, tecnicos, prefeituras, textolivre } = props
 
     const user = { ...localStorage },
         tecnico = tecnicos.filter(el => el.email.match(user.email))[0],
@@ -30,6 +30,7 @@ const MostrarOficio = (props) => {
                     empreend={empreend}
                     rt={rt}
                     prefeituras={prefeituras}
+                    textolivre={textolivre}
                 />
                 <div dangerouslySetInnerHTML={{ __html: content }}></div>
                 <center>
